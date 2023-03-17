@@ -4,6 +4,7 @@ import ProjetsView from '../views/ProjetsView.vue'
 import AproposView from '../views/AproposView.vue'
 import ContactView from '../views/ContactView.vue'
 import troisfView from '../views/troisfView.vue'
+import NewfestView from '../views/NewfestView.vue'
 
 
 const router = createRouter({
@@ -37,6 +38,12 @@ const router = createRouter({
       path: '/troisf',
       name: 'troisf',
       component: troisfView
+    },
+
+    {
+      path: '/newfest',
+      name: 'newfest',
+      component: NewfestView
     },
   ]
 })

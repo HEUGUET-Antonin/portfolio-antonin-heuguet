@@ -41,4 +41,5 @@
         <a href="https://www.linkedin.com/in/antonin-heuguet-1243a6224/?originalSubdomain=fr" class="transition duration-500 ease-in-out hover:text-blue-700"><h2><span class="text-blue-700">&gt; </span>Linkedin</h2></a>
         <a href="mailto:antoninheuguet@gmail.com" class="transition duration-500 ease-in-out hover:text-blue-700"><h2><span class="text-blue-700">&gt; </span>antonin.heuguet@gmail.com</h2></a>
     </div>
+    
 </template>
