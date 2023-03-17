@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "MadeAltBlack";
+    src: url(../src/font/made_outer_sans_alt_black_personal_use-webfont.woff2);
+}
+
+@font-face {
+    font-family: "MadeAltMedium";
+    src: url(../src/font/made_outer_sans_alt_medium_personal_use-webfont.woff2);
+}
+
+@font-face {
+    font-family: "MadeAltBold";
+    src: url(../src/font/made_outer_sans_alt_bold_personal_use-webfont.woff2);
+}
+
+@font-face {
+    font-family: "MadeAltLight";
+    src: url(../src/font/made_outer_sans_alt_light_personal_use-webfont.woff2);
+}
+
+@font-face {
+    font-family: "MadeAltRegular";
+    src: url(../src/font/made_outer_sans_alt_regular_personal_use-webfont.woff2);
+}
+
+@font-face {
+    font-family: "Fantome";
+    src: url(../src/font/Fantome-Regular.woff2);
+}
+
+@font-face {
+    font-family: "MadeAltThin";
+    src: url(../src/font/madeoutersansaltthin.otf);
+}
+
+@font-face {
+    font-family: "Kenoky";
+    src: url(../src/font/KENOKY-Light.otf);
+}
+
