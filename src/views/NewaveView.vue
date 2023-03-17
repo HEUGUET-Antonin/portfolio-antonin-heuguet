@@ -2,17 +2,17 @@
    
     <div class="relative">
 
-        <img src="/mockup3fmain.jpg" alt="" class="filter contrast-150 brightness-95 h-[16rem] w-full object-cover absolute sm:h-[24rem] xl:h-[36rem]">
+        <img src="/CoverMagazine.jpg" alt="" class="filter contrast-150 brightness-95 h-[16rem] w-full object-cover absolute sm:h-[24rem] xl:h-[36rem]">
 
-        <h1 class="absolute font-fantome uppercase text-blue-700 mt-[12.5rem] text-[7vw] ml-[1rem] sm:mt-[17.5rem] xl:mt-[28rem] xl:ml-20 xl:text-[6vw]">Fuck Fast Fashion</h1>
+        <h1 class="absolute font-fantome uppercase text-blue-700 mt-[12.5rem] text-[7vw] ml-[1rem] sm:mt-[17.5rem] xl:mt-[28rem] xl:ml-20 xl:text-[6vw]">Newave</h1>
     </div>
 
     <div class="uppercase mt-[23rem] sm:mt-[30rem] xl:mt-[40rem] absolute w-full">
-        <h2 class="font-mademedium mb-8 md:text-2xl  mx-8 md:mx-20 text-xl">Création identité de marque éco-responsable</h2>
+        <h2 class="font-mademedium mb-8 md:text-2xl  mx-8 md:mx-20 text-xl">Design d'impression</h2>
         <div class="font-maderegular flex flex-col md:flex-row md:space-x-20 space-y-2 md:space-y-0 justify-start mb-8 text-lg md:text-base mx-20">
-            <p>Octobre <span class="text-blue-700">2022</span></p>
+            <p>Septembre<span class="text-blue-700"> 2022</span></p>
             <p>Projet <span class="text-blue-700">étudiant</span></p>
-            <p>Illustrator <span class="text-blue-700"> | </span> Photoshop  <span class="text-blue-700"> | </span>  Indesign</p>
+            <p>Indesign</p>
         </div>
 
         <div class="flex space-x-2 md:space-x-20 md:flex-row flex-col xl:mr-52 mx-8 md:mx-20 mt-14 ">
@@ -50,11 +50,11 @@
 
         <div class="font-fantome md:text-5xl text-4xl mx-8 md:mx-32 flex flex-col mt-14 mb-24">
             <h3 class="self-start" >Next Projet</h3>
-            <RouterLink to="/newfest" class="self-end flex items-center space-x-2 md:space-x-8">
+            <RouterLink to="/troisf" class="self-end flex items-center space-x-2 md:space-x-8">
                 <div class=" transition ease-in-out duration-500">
                     <IconArrowNoir></IconArrowNoir>
                 </div>
-                <h2>Newfest</h2>
+                <h2>Fuck Fast Fashion</h2>
             </RouterLink>
         </div>
 

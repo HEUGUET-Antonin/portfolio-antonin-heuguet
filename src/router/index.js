@@ -5,6 +5,10 @@ import AproposView from '../views/AproposView.vue'
 import ContactView from '../views/ContactView.vue'
 import troisfView from '../views/troisfView.vue'
 import NewfestView from '../views/NewfestView.vue'
+import CpfmView from '../views/CpfmView.vue'
+import PostersView from '../views/PostersView.vue'
+import HotonesView from '../views/HotonesView.vue'
+import NewaveView from '../views/NewaveView.vue'
 
 
 const router = createRouter({
@@ -44,6 +48,30 @@ const router = createRouter({
       path: '/newfest',
       name: 'newfest',
       component: NewfestView
+    },
+
+    {
+      path: '/cpfm',
+      name: 'cpfm',
+      component: CpfmView
+    },
+
+    {
+      path: '/posters',
+      name: 'posters',
+      component: PostersView
+    },
+
+    {
+      path: '/hotones',
+      name: 'hotones',
+      component: HotonesView
+    },
+
+    {
+      path: '/newave',
+      name: 'newave',
+      component: NewaveView
     },
   ]
 })
