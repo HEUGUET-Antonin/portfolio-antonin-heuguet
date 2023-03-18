@@ -15,6 +15,7 @@ module.exports = {
         madethin: ['MadeAltThin'],
         fantome: ['Fantome'],
         kenoky: ['Kenoky'],
+        manrope: ['Manrope']
       }
     },
   },
