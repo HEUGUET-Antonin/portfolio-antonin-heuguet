@@ -8,7 +8,7 @@
                 Au-delà de l'aspect professionnel, la création de contenu est pour moi une véritable passion.</p>
                 <p>Si mon travail vous plaît, n'hésitez pas à me suivre et à me contacter sur mes différents réseaux sociaux.</p>
             </div>
-            <img src="mockupdesktop.jpg" alt="" class="w-1/4">
+            <img src="/mockupdesktop.jpg" alt="" class="w-1/4">
         </div>
     </div>
     
