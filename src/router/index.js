@@ -9,6 +9,7 @@ import CpfmView from '../views/CpfmView.vue'
 import PostersView from '../views/PostersView.vue'
 import HotonesView from '../views/HotonesView.vue'
 import NewaveView from '../views/NewaveView.vue'
+import PageNotFound from "../views/404.vue"
 
 
 const router = createRouter({
@@ -18,6 +19,12 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+
+    { 
+      path: '/:pathMatch(.*)*',
+      name: '404', 
+      component: PageNotFound 
     },
 
     {
