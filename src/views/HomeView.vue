@@ -74,6 +74,11 @@
   </footer>
 </template>
 
+
+<style>
+    @import "@/assets/main.css";
+</style>
+
 <script>
 import IconArrow from "../components/icons/IconArrow.vue";
 import {
@@ -106,17 +111,32 @@ export default {
   },
 };
 </script>
+
 <script setup>
-import { ref, onMounted } from "vue";
+  var curseur = document.querySelector(".cursor");
+  var action = document.querySelectorAll("a");
 
-const meshC = ref();
+  document.addEventListener("mousemove", function (e){
+    var x = e.clientX;
+    var y = e.clientY;
+    curseur.style.left = x + "px";
+    curseur.style.top = y + "px";
+  })
 
-document.addEventListener(
-  "mousemove",
-  function (ev) {
-    meshC.value.mesh.rotation.x += ev.clientX / 1000000;
-    meshC.value.mesh.rotation.y += ev.clientY / 1000000;
-  },
-  false
-);
+  document.addEventListener("mousedown", function(){
+    curseur.classList.add("click");
+  })
+
+  document.addEventListener("mouseup", function(){
+    curseur.classList.remove("click");
+  })
+
+  action.forEach((item) => {
+    item.addEventListener("mouseover", () => {
+      curseur.classList.add("action");
+    })
+    item.addEventListener("mouseleave", () => {
+      curseur.classList.remove("action");
+    })
+  })
 </script>

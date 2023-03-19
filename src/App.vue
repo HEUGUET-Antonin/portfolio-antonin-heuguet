@@ -20,6 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <style>
   @import "@/assets/base.css";
+  @import "@/assets/main.css";
 </style>
 
 <script>
@@ -40,3 +41,4 @@ export default {
   },
 };
 </script>
+
