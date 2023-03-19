@@ -15,51 +15,182 @@
             <p>Photoshop</p>
         </div>
 
-        <div class="flex space-x-2 md:space-x-20 md:flex-row flex-col xl:mr-52 mx-8 md:mx-20 mt-14 ">
-            <h2 class="font-mademedium mb-8 md:text-2xl text-xl">Résumé</h2>
-            <p class="font-madelight md:text-base text-xs leading-5 md:leading-7"><span class="text-blue-700">Fuck Fast Fashion </span> ou <span class="text-blue-700">3F</span> est une marque de vêtements que j’ai entièrement imaginée. 
-                Le but du projet était de créer l’identité d’une marque écologique et de la développer entièrement.
-                Dans un premier temps j'ai réfléchi au positionnement de la marque et son nom. J'ai ensuite crée le monogramme
-                de celle-ci. Après ces étapes cruciales j'ai élaboré la charte graphique de la marque, typographies, couleurs,
-                éléments graphiques...<br> Pour finir j'ai imaginé des possibles visuels d'affiches ou vêtements de cette marque.
-                L'ensemble de la charte graphique a été mis en page sur Indesign.
-            </p>
-        </div>
+    <div
+      class="flex space-x-2 md:space-x-20 md:flex-row flex-col xl:mr-52 mx-8 md:mx-20 mt-14"
+    >
+      <h2 class="font-mademedium mb-8 md:text-2xl text-xl w-full">le projet</h2>
+      <div
+        class="flex flex-col font-manrope md:text-base text-xs space-y-4 leading-5 md:leading-7 normal-case"
+      >
+        <p class="">
+          Mes posters ont été créés à partir d'une impulsion purement créative. Parfois, dans ma vie quotidienne, 
+          je ressens le besoin pressant de créer quelque chose, et c'est dans ces moments que sont nés les quelques 
+          posters que vous trouverez ci-dessous. Bien que je n'aie pas spécifiquement cherché à atteindre un objectif
+           précis dans ces créations, j'ai pris plaisir à les réaliser et j'ai vu cela comme une occasion d'améliorer
+            mes compétences en design sur Photoshop. En les présentant dans mon portfolio, j'espère partager avec vous
+             mon côté personnel et artistique, tout en démontrant ma capacité à créer des designs attrayants et efficaces.
+        </p>
+      </div>
+    </div>
 
-        <div class="flex justify-center ml-0 ">
-            <div class="grid grid-cols-1 xl:grid-cols-5 gap-3 mt-14 ">
-                <div id="photo" class="col-span-4">
-                    <img src="/mockup3F1.jpg" alt="" class=" xl:h-[28rem] h-[20rem] w-full transition ease-in-out duration-500 border-[4px] border-white object-cover" id="big_pict">
-                </div>
-                <div id="galerie_mini" class="flex  flex-row xl:flex-col w-full">
-                    <a href="/mockup3F1.jpg" class="relative w-full h-full">
-                        <img src="/mockup3F1.jpg" alt="" class="w-full h-full xl:h-[7rem] border-[4px] border-white transition ease-in-out duration-500 object-cover">
-                    </a>
-                    <a href="/mockup3F2.jpg" class="relative w-full h-full">
-                        <img src="/mockup3F2.jpg" alt="" class="w-full h-full xl:h-[7rem] border-[4px] border-white transition ease-in-out duration-500 object-cover">
-                    </a>
-                    <a href="/mockup3F3.jpg" class="relative w-full h-full">
-                        <img src="/mockup3F3.jpg" alt="" class="w-full h-full xl:h-[7rem] border-[4px] border-white transition ease-in-out duration-500 object-cover">
-                    </a>
-                    <a href="/mockup3F4.jpg" class="relative w-full h-full">
-                        <img src="/mockup3F4.jpg" alt="" class="w-full h-full xl:h-[7rem] border-[4px] border-white transition ease-in-out duration-500 object-cover">
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div
+      class="flex flex-col lg:flex-row font-manrope md:text-base text-xs space-y-4 space-x-4 mx-8 md:mx-20 items-center mt-14 leading-5 md:leading-7 normal-case"
+    >
+      <p>
+        Pour la première série de posters, j'ai cherché à transmettre un message d'espoir et de résilience à travers la 
+        citation que j'ai choisie. J'ai voulu mettre en avant l'importance de se relever après un échec et de continuer 
+        à avancer malgré les obstacles qui se présentent sur notre chemin. Les photos que j'ai choisies étaient en parfaite
+         adéquation avec ce message et j'ai pris plaisir à les retoucher pour obtenir un résultat final qui me satisfait 
+         pleinement.
+      </p>
+      <img src="/posters_1.jpg" alt="" class="w-3/5 xl:w-2/5 object-cover" />
+    </div>
 
-        <div class="font-fantome md:text-5xl text-4xl mx-8 md:mx-32 flex flex-col mt-14 mb-24">
-            <h3 class="self-start" >Next Projet</h3>
-            <RouterLink to="/hotones" class="self-end flex items-center space-x-2 md:space-x-8">
-                <div class=" transition ease-in-out duration-500">
-                    <IconArrowNoir></IconArrowNoir>
-                </div>
-                <h2>Hot ones</h2>
-            </RouterLink>
-        </div>
+    <div
+      class="flex flex-col-reverse lg:flex-row font-manrope md:text-base text-xs space-y-4 space-x-4 mx-8 md:mx-20 items-center mt-14 leading-5 md:leading-7 normal-case"
+    >
+      <img src="/posters_2.jpg" alt="" class="w-3/5 xl:w-2/5 object-cover" />
+      <p>
+        Pour la deuxième série, j'ai voulu aborder un sujet qui me tient à cœur : la détresse psychologique. 
+        La photographie que j'ai trouvée sur Pinterest m'a immédiatement inspirée et j'ai cherché à créer un design 
+        qui véhicule l'idée de souffrance intérieure. J'espère que ce poster pourra toucher les personnes qui sont 
+        confrontées à des difficultés psychologiques et leur apporter un certain réconfort en leur montrant qu'ils ne 
+        sont pas seuls.
+      </p>
+    </div>
+
+    <div
+      class="flex flex-col justify-center font-manrope md:text-base text-xs space-y-4  mx-8 md:mx-28 mt-14 leading-5 md:leading-7 normal-case"
+    >
+      <p>
+       En somme, ces posters reflètent mes centres d'intérêt personnels ainsi que mes compétences en design. 
+       J'espère qu'ils sauront vous plaire et qu'ils vous donneront un aperçu de mon style artistique. À travers 
+       ces créations, j'ai cherché avant tout à exprimer mes émotions et mes idées.
+      </p>
 
     </div>
 
+    <div class="flex justify-center ml-0">
+      <div class="grid grid-cols-1 xl:grid-cols-5 gap-3 mt-14">
+        <div class="col-span-4">
+          <img
+            :src="srcImage"
+            alt=""
+            class="xl:h-[28rem] h-[20rem] w-full transition ease-in-out duration-500 border-[4px] border-white object-cover"
+            id="big_pict"
+          />
+        </div>
+
+        <div class="flex flex-row xl:flex-col w-full">
+          <button
+            @click="
+              (srcImage = '/posters_3.jpg'),
+                (imageChoisie1 = true),
+                (imageChoisie2 = false),
+                (imageChoisie3 = false),
+                (imageChoisie4 = false)
+            "
+            class="relative w-full h-full"
+          >
+            <img
+              :class="{
+                'opacity-100': imageChoisie1 === true,
+                'opacity-60': imageChoisie1 === false,
+              }"
+              src="/posters_3.jpg"
+              alt=""
+              class=" w-full h-full xl:h-[7rem] border-4 border-white transition ease-in-out duration-500 object-cover"
+            />
+          </button>
+          <button
+            @click="
+              (srcImage = '/posters_4.jpg'),
+                (imageChoisie1 = false),
+                (imageChoisie2 = true),
+                (imageChoisie3 = false),
+                (imageChoisie4 = false)
+            "
+            class="relative w-full h-full"
+          >
+            <img
+              :class="{
+                'opacity-100': imageChoisie2 === true,
+                'opacity-60': imageChoisie2 === false,
+              }"
+              src="/posters_4.jpg"
+              alt=""
+              class=" w-full h-full xl:h-[7rem] border-4 border-white transition ease-in-out duration-500 object-cover"
+            />
+          </button>
+          <button
+            @click="
+              (srcImage = '/posters_5.jpg'),
+                (imageChoisie1 = false),
+                (imageChoisie2 = false),
+                (imageChoisie3 = true),
+                (imageChoisie4 = false)
+            "
+            class="relative w-full h-full"
+          >
+            <img
+              :class="{
+                'opacity-100': imageChoisie3 === true,
+                'opacity-60': imageChoisie3 === false,
+              }"
+              src="/posters_5.jpg"
+              alt=""
+              class=" w-full h-full xl:h-[7rem] border-4 border-white transition ease-in-out duration-500 object-cover"
+            />
+          </button>
+          <button
+            @click="
+              (srcImage = '/posters_6.jpg'),
+                (imageChoisie1 = false),
+                (imageChoisie2 = false),
+                (imageChoisie3 = false),
+                (imageChoisie4 = true)
+            "
+            class="relative w-full h-full"
+          >
+            <img
+              :class="{
+                'opacity-100': imageChoisie4 === true,
+                'opacity-60': imageChoisie4 === false,
+              }"
+              src="/posters_6.jpg"
+              alt=""
+              class="opacity-75 w-full h-full xl:h-[7rem] border-4 border-white transition ease-in-out duration-500 object-cover"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="font-fantome md:text-5xl text-4xl mx-8 md:mx-32 flex flex-col mt-14 mb-24"
+    >
+      <RouterLink
+        to="/newfest" @click="scrollToTop"
+        class="self-start flex items-center space-x-2 md:space-x-8 transition ease-in-out duration-500 hover:-translate-x-3 hover:text-blue-700"
+      >
+        <div class="">
+          <IconArrowNoir class="sym-h"></IconArrowNoir>
+        </div>
+        <h2>Newfest</h2>
+      </RouterLink>
+
+      <RouterLink
+        to="/posters" @click="scrollToTop"
+        class="self-end flex items-center space-x-2 md:space-x-8 transition ease-in-out duration-500 hover:translate-x-3 hover:text-blue-700"
+      >
+        <h2>Posters</h2>
+        <div class="">
+          <IconArrowNoir></IconArrowNoir>
+        </div>
+      </RouterLink>
+
+    </div>
+  </div>
 </template>
 
 <script>
@@ -67,22 +198,38 @@ import IconArrowNoir from "../components/icons/IconArrowNoir.vue";
 
 export default {
   components: {
-    IconArrowNoir, 
+    IconArrowNoir,
+  },
+
+  data() {
+    return {
+      srcImage: "/posters_3.jpg",
+    };
+  },
+
+  props: {
+    imageChoisie1: {
+      type: Boolean,
+      default: true,
+    },
+    imageChoisie2: {
+      type: Boolean,
+      default: false,
+    },
+    imageChoisie3: {
+      type: Boolean,
+      default: false,
+    },
+    imageChoisie4: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
   },
 };
 
-function displayPics() {
-  var photos = document.querySelectorAll('#galerie_mini a');
-  var big_photo = document.getElementById('big_pict');
-
-  photos.forEach(function(photo) {
-    photo.addEventListener('click', function(event) {
-      event.preventDefault();
-      var newSrc = this.href;
-      big_photo.src = newSrc;
-    });
-  });
-}
-
-window.onload = displayPics;
 </script>
