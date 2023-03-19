@@ -20,26 +20,3 @@
     background: transparent;
 }
 
-.cursor {
-    position: fixed;
-    width: 15px;
-    width: 15px;
-    border-radius: 100%;
-    pointer-events: none;
-    background-color: white;
-    transform: translate(-50%, -50%);
-    transition: width 0.2s ease-in-out, height 0.2s ease-in-out, opacity 0.2s ease-in-out;
-    mix-blend-mode: difference;
-    z-index: 10000;
-}
-
-.action {
-    width: 50px;
-    height: 50px;
-}
-
-.click {
-    width: 5px;
-    height: 5px;
-    transition: all 0.1s ease-in-out;
-}

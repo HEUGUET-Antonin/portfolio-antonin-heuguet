@@ -1,4 +1,10 @@
 <template>
+
+  <div class="custom-cursor">
+    <div id="cursor-big" class="custom-cursor__ball custom-cursor__ball--big"></div>
+    <div id="cursor-small" class="custom-cursor__ball custom-cursor__ball--small"></div>
+  </div>
+
   <div
     class="grid grid-cols-1 md:grid-cols-2 w-full h-[80vh] justify-items-center items-center p-4 gap-2"
   >
@@ -75,11 +81,9 @@
 </template>
 
 
-<style>
-    @import "@/assets/main.css";
-</style>
 
 <script>
+import gsap from "gsap";
 import IconArrow from "../components/icons/IconArrow.vue";
 import {
   PointLight,
@@ -104,39 +108,102 @@ export default {
     UnrealBloomPass,
   },
 
+  props: {
+      hoverClass: {
+        type: String,
+        default: 'cursor-hover'
+      }
+    },
+
   methods: {
     scrollToTop() {
       window.scrollTo(0, 0);
     },
   },
+  mounted () {
+      const cursorBig = document.getElementById('cursor-big'),
+            cursorSmall = document.getElementById('cursor-small'),
+            links = document.getElementsByTagName("a"),
+            withClassHover = document.getElementsByClassName(this.hoverClass),
+            withHover = [...links, ...withClassHover];
+
+     
+      document.addEventListener("mousemove", onMouseMove);
+      document.addEventListener("mousedown", onMouseHover);
+      document.addEventListener("mouseup", onMouseHoverOut);
+      document.addEventListener("mouseenter", () => {
+        cursorBig.style.opacity = 1;
+        cursorSmall.style.opacity = 1;
+      });
+      document.addEventListener("mouseleave", () => {
+        cursorBig.style.opacity = 0;
+        cursorSmall.style.opacity = 0;
+      });
+      withHover.forEach((element) => {
+        element.addEventListener("mouseover", onMouseHover);
+        element.addEventListener("mouseout", onMouseHoverOut);
+      })
+
+      
+      function onMouseMove(e) {
+        cursorSmall.style.opacity = 1;
+        gsap.to(cursorBig, 0.4, {
+          x: e.clientX - 18,
+          y: e.clientY - 18
+        });
+        gsap.to(cursorSmall, 0.1, {
+          x: e.clientX - 4,
+          y: e.clientY - 4
+        });
+      }
+      function onMouseHover() {
+        gsap.to(cursorBig, 0.3, {
+          scale: 1.7
+        });
+      }
+      function onMouseHoverOut() {
+        gsap.to(cursorBig, 0.3, {
+          scale: 1
+        });
+      }
+    }
 };
 </script>
 
-<script setup>
-  var curseur = document.querySelector(".cursor");
-  var action = document.querySelectorAll("a");
+<style>
+  @import "@/assets/main.css";
 
-  document.addEventListener("mousemove", function (e){
-    var x = e.clientX;
-    var y = e.clientY;
-    curseur.style.left = x + "px";
-    curseur.style.top = y + "px";
-  })
+  @media screen and (min-width:1100px) {
+    * {
+      cursor: none !important;
+    }
 
-  document.addEventListener("mousedown", function(){
-    curseur.classList.add("click");
-  })
+    .custom-cursor__ball {
+      position: fixed;
+      top: 0;
+      left: 0;
+      mix-blend-mode: difference;
+      z-index: 99999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.5s ease;
+    }
 
-  document.addEventListener("mouseup", function(){
-    curseur.classList.remove("click");
-  })
+    .custom-cursor__ball--big {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: none;
+      background: white;
+      border-radius: 50%;
+    }
 
-  action.forEach((item) => {
-    item.addEventListener("mouseover", () => {
-      curseur.classList.add("action");
-    })
-    item.addEventListener("mouseleave", () => {
-      curseur.classList.remove("action");
-    })
-  })
-</script>
+    .custom-cursor__ball--small {
+      content: "";
+      width: 6px;
+      height: 6px;
+      background: rgb(29 78 216);
+      border-radius: 50%;
+    }
+  }
+</style>
