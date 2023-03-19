@@ -1,6 +1,6 @@
 <template>
 
-    <div class="grid grid-cols-1 justify-items-center items-center w-full h-[60vh] ">
+    <div class="grid grid-cols-1 justify-items-center items-center w-full h-[50vh] ">
     <div class="w-full h-full mt-[12rem] lg:block  hidden filter blur-sm">
       <Renderer ref="renderer" antialias :orbit-ctrl="{ enableDamping: true, enableZoom: false, enablePan: false}" resize="true">
         <Camera :position="{ x: 5, y: 0, z: 0}" />
@@ -29,6 +29,11 @@
     </div>
 
     </div>
+
+    <footer class="flex flex-col  p-8 font-madelight text-xs uppercase bg-gray-50 mt-[13rem] text-black">
+    <p class="self-start">design & dev - Antonin Heuguet</p>
+    <p class="self-end">Antonin Heuguet © 2023</p>
+  </footer>
 </template>
 
 <script>

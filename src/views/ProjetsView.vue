@@ -108,9 +108,13 @@
     </div>
 
     
+    
 
 </section>
-
+    <footer class="flex flex-col  p-8 font-madelight text-xs uppercase bg-gray-50 text-black">
+    <p class="self-start">design & dev - Antonin Heuguet</p>
+    <p class="self-end">Antonin Heuguet © 2023</p>
+  </footer>
 
 </template>
 

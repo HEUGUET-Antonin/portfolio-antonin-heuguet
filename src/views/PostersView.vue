@@ -18,7 +18,7 @@
     <div
       class="flex space-x-2 md:space-x-20 md:flex-row flex-col xl:mr-52 mx-8 md:mx-20 mt-14"
     >
-      <h2 class="font-mademedium mb-8 md:text-2xl text-xl w-full">le projet</h2>
+      <h2 class="font-mademedium mb-8 md:text-2xl text-xl w-full ">le projet</h2>
       <div
         class="flex flex-col font-manrope md:text-base text-xs space-y-4 leading-5 md:leading-7 normal-case"
       >
@@ -170,20 +170,20 @@
       class="font-fantome md:text-5xl text-4xl mx-8 md:mx-32 flex flex-col mt-14 mb-24"
     >
       <RouterLink
-        to="/newfest" @click="scrollToTop"
+        to="/cpfm" @click="scrollToTop"
         class="self-start flex items-center space-x-2 md:space-x-8 transition ease-in-out duration-500 hover:-translate-x-3 hover:text-blue-700"
       >
         <div class="">
           <IconArrowNoir class="sym-h"></IconArrowNoir>
         </div>
-        <h2>Newfest</h2>
+        <h2>Analyse CPFM</h2>
       </RouterLink>
 
       <RouterLink
-        to="/posters" @click="scrollToTop"
+        to="/newave" @click="scrollToTop"
         class="self-end flex items-center space-x-2 md:space-x-8 transition ease-in-out duration-500 hover:translate-x-3 hover:text-blue-700"
       >
-        <h2>Posters</h2>
+        <h2>Newave</h2>
         <div class="">
           <IconArrowNoir></IconArrowNoir>
         </div>

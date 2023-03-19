@@ -15,6 +15,7 @@ import { RouterLink, RouterView } from "vue-router";
   
   <main class="bg-white text-black"><RouterView /></main>
 
+
 </template>
 
 <style>

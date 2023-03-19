@@ -8,10 +8,14 @@
                 Au-delà de l'aspect professionnel, la création de contenu est pour moi une véritable passion.</p>
                 <p>Si mon travail vous plaît, n'hésitez pas à me suivre et à me contacter sur mes différents <RouterLink to="/contact"  @click="scrollToTop" class="text-blue-700 underline"> réseaux sociaux</RouterLink>.</p>
             </div>
-            <img src="/mockupdesktop.jpg" alt="" class="md:w-2/5 w-1/4 object-cover">
+            <img src="/Photomoi.jpg" alt="" class="md:w-2/5  w-1/4 object-cover">
         </div>
     </div>
-    
+
+    <footer class="flex flex-col  p-8 font-madelight text-xs uppercase mt-8 bg-gray-50 text-black">
+    <p class="self-start">design & dev - Antonin Heuguet</p> 
+    <p class="self-end">Antonin Heuguet © 2023</p>
+  </footer>
 </template>
 
 <script>

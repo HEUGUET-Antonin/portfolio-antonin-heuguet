@@ -15,51 +15,84 @@
             <p>Indesign</p>
         </div>
 
-        <div class="flex space-x-2 md:space-x-20 md:flex-row flex-col xl:mr-52 mx-8 md:mx-20 mt-14 ">
-            <h2 class="font-mademedium mb-8 md:text-2xl text-xl">Résumé</h2>
-            <p class="font-madelight md:text-base text-xs leading-5 md:leading-7"><span class="text-blue-700">Fuck Fast Fashion </span> ou <span class="text-blue-700">3F</span> est une marque de vêtements que j’ai entièrement imaginée. 
-                Le but du projet était de créer l’identité d’une marque écologique et de la développer entièrement.
-                Dans un premier temps j'ai réfléchi au positionnement de la marque et son nom. J'ai ensuite crée le monogramme
-                de celle-ci. Après ces étapes cruciales j'ai élaboré la charte graphique de la marque, typographies, couleurs,
-                éléments graphiques...<br> Pour finir j'ai imaginé des possibles visuels d'affiches ou vêtements de cette marque.
-                L'ensemble de la charte graphique a été mis en page sur Indesign.
-            </p>
-        </div>
+        <div
+      class="flex space-x-2 md:space-x-20 md:flex-row flex-col xl:mr-52 mx-8 md:mx-20 mt-14"
+    >
+      <h2 class="font-mademedium mb-8 md:text-2xl text-xl w-full ">le projet</h2>
+      <div
+        class="flex flex-col font-manrope md:text-base text-xs space-y-4 leading-5 md:leading-7 normal-case"
+      >
+        <p class="">
+      Dans le cadre de mon portfolio, j'ai travaillé sur un projet passionnant qui consistait en l'analyse d'une 
+      couverture de magazine professionnel suivie de la création de ma propre couverture de magazine sur Indesign. 
+      Pour la première étape de ce projet j'ai choisi d'analyse sur la couverture de Vogue mettant en avant Timothée Chalamet.
+        </p>
+      </div>
+    </div>
 
-        <div class="flex justify-center ml-0 ">
-            <div class="grid grid-cols-1 xl:grid-cols-5 gap-3 mt-14 ">
-                <div id="photo" class="col-span-4">
-                    <img src="/mockup3F1.jpg" alt="" class=" xl:h-[28rem] h-[20rem] w-full transition ease-in-out duration-500 border-[4px] border-white object-cover" id="big_pict">
-                </div>
-                <div id="galerie_mini" class="flex  flex-row xl:flex-col w-full">
-                    <a href="/mockup3F1.jpg" class="relative w-full h-full">
-                        <img src="/mockup3F1.jpg" alt="" class="w-full h-full xl:h-[7rem] border-[4px] border-white transition ease-in-out duration-500 object-cover">
-                    </a>
-                    <a href="/mockup3F2.jpg" class="relative w-full h-full">
-                        <img src="/mockup3F2.jpg" alt="" class="w-full h-full xl:h-[7rem] border-[4px] border-white transition ease-in-out duration-500 object-cover">
-                    </a>
-                    <a href="/mockup3F3.jpg" class="relative w-full h-full">
-                        <img src="/mockup3F3.jpg" alt="" class="w-full h-full xl:h-[7rem] border-[4px] border-white transition ease-in-out duration-500 object-cover">
-                    </a>
-                    <a href="/mockup3F4.jpg" class="relative w-full h-full">
-                        <img src="/mockup3F4.jpg" alt="" class="w-full h-full xl:h-[7rem] border-[4px] border-white transition ease-in-out duration-500 object-cover">
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div
+      class="flex flex-col lg:flex-row font-manrope md:text-base text-xs space-y-4 space-x-4 mx-8 md:mx-20 items-center mt-14 leading-5 md:leading-7 normal-case"
+    >
+      <p>
+        Pour l'analyse de la couverture de Vogue, j'ai examiné en détail tous les éléments constitutifs de la couverture, tels que les titres, 
+        l'image, la typographie, la symétrie, etc. Cette analyse minutieuse m'a permis de mieux comprendre comment construire 
+        une couverture de magazine professionnelle et m'a appris beaucoup de choses sur l'agencement des différents éléments 
+        pour créer un effet visuel harmonieux.
+      </p>
+      <img src="/analysemag.jpg" alt="" class="w-3/5 xl:w-2/5 object-cover" />
+    </div>
 
-        <div class="font-fantome md:text-5xl text-4xl mx-8 md:mx-32 flex flex-col mt-14 mb-24">
-            <h3 class="self-start" >Next Projet</h3>
-            <RouterLink to="/troisf" class="self-end flex items-center space-x-2 md:space-x-8">
-                <div class=" transition ease-in-out duration-500">
-                    <IconArrowNoir></IconArrowNoir>
-                </div>
-                <h2>Fuck Fast Fashion</h2>
-            </RouterLink>
-        </div>
+    <div
+      class="flex flex-col-reverse lg:flex-row font-manrope md:text-base text-xs space-y-4 space-x-4 mx-8 md:mx-20 items-center mt-14 leading-5 md:leading-7 normal-case"
+    >
+      <img src="/CoverMagazine.jpg" alt="" class="w-3/5 xl:w-2/5 object-cover" />
+      <p>
+       Pour la partie créative du projet, j'ai imaginé ma propre couverture de magazine fictif. J'ai choisi de créer 
+       un magazine sur deux de mes passions : la mode et la musique. J'ai trouvé la recherche d'un nom pour mon magazine
+        assez difficile, mais après plusieurs essais, j'ai finalement trouvé un nom qui correspondait parfaitement à mon projet.
+         J'ai également conçu un logotype avec une typographie qui fonctionne très bien dans le contexte de mon magazine. Ensuite,
+          j'ai sélectionné une photo de "La fève", un artiste que j'apprécie beaucoup, pour la mettre en avant sur la couverture. 
+          Enfin, j'ai imaginé plusieurs titres d'articles en lien avec l'actualité et la thématique de mon magazine.
+      </p>
+    </div>
+
+    <div
+      class="flex flex-col justify-center font-manrope md:text-base text-xs space-y-4  mx-8 md:mx-28 mt-14 leading-5 md:leading-7 normal-case"
+    >
+      <p>
+      En conclusion, ce projet a été une expérience très enrichissante pour moi. J'ai appris énormément de choses sur 
+      la construction d'une couverture de magazine professionnelle et j'ai eu l'opportunité de laisser libre cours à ma
+       créativité en imaginant ma propre couverture. Je suis très satisfait du résultat final de ce projet et je suis fier
+        de l'avoir réalisé.
+      </p>
 
     </div>
 
+    <div
+      class="font-fantome md:text-5xl text-4xl mx-8 md:mx-32 flex flex-col mt-14 mb-24"
+    >
+      <RouterLink
+        to="/posters" @click="scrollToTop"
+        class="self-start flex items-center space-x-2 md:space-x-8 transition ease-in-out duration-500 hover:-translate-x-3 hover:text-blue-700"
+      >
+        <div class="">
+          <IconArrowNoir class="sym-h"></IconArrowNoir>
+        </div>
+        <h2>Posters</h2>
+      </RouterLink>
+
+      <RouterLink
+        to="/troisf" @click="scrollToTop"
+        class="self-end flex items-center space-x-2 md:space-x-8 transition ease-in-out duration-500 hover:translate-x-3 hover:text-blue-700"
+      >
+        <h2>Fuck Fast Fashion</h2>
+        <div class="">
+          <IconArrowNoir></IconArrowNoir>
+        </div>
+      </RouterLink>
+
+    </div>
+  </div>
 </template>
 
 <script>
@@ -67,22 +100,18 @@ import IconArrowNoir from "../components/icons/IconArrowNoir.vue";
 
 export default {
   components: {
-    IconArrowNoir, 
+    IconArrowNoir,
+  },
+
+  data() {
+    
+  },
+
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
   },
 };
 
-function displayPics() {
-  var photos = document.querySelectorAll('#galerie_mini a');
-  var big_photo = document.getElementById('big_pict');
-
-  photos.forEach(function(photo) {
-    photo.addEventListener('click', function(event) {
-      event.preventDefault();
-      var newSrc = this.href;
-      big_photo.src = newSrc;
-    });
-  });
-}
-
-window.onload = displayPics;
 </script>
